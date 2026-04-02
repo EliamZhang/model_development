@@ -118,32 +118,32 @@ model_main.PredictMain
 
 ```json
 {
- 'aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb': 0.04101206412286587,
- 'aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb_features': {
-  'balance_date_max': '2025-09-28',
-  'bank_txn_balance_debit_gap_max_182d': -999999.99999,
-  'bank_txn_balance_kurtosis_182d': -999999.99999,
-  'bank_txn_balance_skewness_182d': -999999.99999,
-  'bank_txn_balance_std_168d': 294.16349,
-  'bank_txn_category_cluster_debt_share_182d': 0.51559,
-  'bank_txn_category_dishonours_credit_cnt_56d': 2,
-  'bank_txn_category_external_transfers_share_28d': 0.56284,
-  'bank_txn_category_internal_transfer_credit_amt_182d': 0.0,
-  'bank_txn_category_non_sacc_loans_debit_cnt_28d': 1,
-  'bank_txn_expense_insurance_ratio_14d': 0,
-  'bank_txn_expense_internaltransfer_daily_max_14d': -999999.99999,
-  'bank_txn_expense_internaltransfer_max_consecutive_days': -999999.99999,
-  'bank_txn_income_wages_cv_56d': -999999.99999,
-  'bank_txn_income_wages_mean_consumption_rate_14d': 0.11633,
-  'bank_txn_lender_disburse_advance_amount_min': 100.0,
-  'bank_txn_lender_disburse_competitor_MyPayNow_count_l84d': -1,
-  'bank_txn_lender_repay_bnpl_amount_min_l28d': -1,
-  'bank_txn_lender_repay_jgs': 3,
-  'send_time': '2026-03-01 12:00:02',
-  'transaction_date_max': '2026-02-27',
-  'txn_balance_input_cnt': 2,
-  'txn_raw_input_cnt': 63
- }
+  "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb": 0.04101206412286587,
+  "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb_features": {
+    "bank_txn_balance_std_168d": 294.16349,
+    "bank_txn_balance_kurtosis_182d": -999999.99999,
+    "bank_txn_balance_debit_gap_max_182d": -999999.99999,
+    "bank_txn_balance_skewness_182d": -999999.99999,
+    "bank_txn_category_cluster_debt_share_182d": 0.51559,
+    "bank_txn_category_dishonours_credit_cnt_56d": 2,
+    "bank_txn_category_internal_transfer_credit_amt_182d": 0.0,
+    "bank_txn_category_non_sacc_loans_debit_cnt_28d": 1,
+    "bank_txn_category_external_transfers_share_28d": 0.56284,
+    "bank_txn_lender_disburse_advance_amount_min": 100.0,
+    "bank_txn_lender_repay_jgs": 3,
+    "bank_txn_lender_repay_bnpl_amount_min_l28d": -1,
+    "bank_txn_lender_disburse_competitor_MyPayNow_count_l84d": -1,
+    "bank_txn_expense_insurance_ratio_14d": 0,
+    "bank_txn_expense_internaltransfer_daily_max_14d": -999999.99999,
+    "bank_txn_expense_internaltransfer_max_consecutive_days": -999999.99999,
+    "bank_txn_income_wages_cv_56d": -999999.99999,
+    "bank_txn_income_wages_mean_consumption_rate_14d": 0.11633,
+    "txn_raw_input_cnt": 63,
+    "txn_balance_input_cnt": 2,
+    "send_time": "2026-03-01 12:00:02",
+    "transaction_date_max": "2026-02-27",
+    "balance_date_max": "2025-09-28"
+  }
 }
 
 

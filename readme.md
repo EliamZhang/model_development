@@ -111,7 +111,6 @@ model_main.PredictMain
   ]
 }
 
-{
 
 ```
 

@@ -118,8 +118,8 @@ model_main.PredictMain
 
 ```json
 {
-  "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb": 0.04101206412286587,
-  "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb_features": {
+  "aus_old_risk_bid_submodel_v20260323_v1_2_txn_lgb_score": 0.04101206412286587,
+  "aus_old_risk_bid_submodel_v20260323_v1_2_txn_lgb_score_features": {
     "bank_txn_balance_std_168d": 294.16349,
     "bank_txn_balance_kurtosis_182d": -999999.99999,
     "bank_txn_balance_debit_gap_max_182d": -999999.99999,

@@ -258,8 +258,11 @@ def model_scoring(df, clfs):
     result = {}
 
     for model in model_files.keys():
-        score_name = "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb"
-        result[score_name] = clfs[model].predict(df[clfs[model].feature_name()].values, num_iteration=clfs[model].best_iteration)[0]
+        score_name = "aus_old_risk_bid_submodel_v20260323_v1_2_txn_lgb_score"
+        result[score_name] = clfs[model].predict(
+            df[clfs[model].feature_name()].values,
+            num_iteration=clfs[model].best_iteration
+        )[0]
     
     return result
 
@@ -392,7 +395,8 @@ def generate_score(input_vars):
     result = model_scoring(df=df_master, clfs=clfs)
 
     # ========== 6. 输出特征 ========== #
-    score_name = "aus_old_risk_bid_submodel_20260323_v1_2_txn_lgb"
+    # ========== 6. 输出特征 ========== #
+    score_name = "aus_old_risk_bid_submodel_v20260323_v1_2_txn_lgb_score"
     features_name = f"{score_name}_features"
 
     fea_dict = df_master.loc[:, model_vars].to_dict(orient="records")[0]
